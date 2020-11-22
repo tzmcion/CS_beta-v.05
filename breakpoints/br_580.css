@@ -1,0 +1,67 @@
+@media only screen and (max-width:580px){
+    .head>.logo>h2>a>i{
+        visibility: hidden;
+    }
+    .info{
+        height: 300px;
+    }
+    .dane>h2{
+         font-size: 1.8rem; 
+         margin: 0;
+    }
+    .dane>h4{
+        font-size: 1rem;
+        line-height: 20px;
+        margin: 10px 0 10px 0;
+    }
+    .dane>h5{
+        margin: 15px 0 0 0;
+    }
+    .info>.dane{
+        width:360px;
+    }
+    #connection{
+        width:380px;
+    }
+    .info_divs{
+        font-size: 0.80rem;
+        height: 45px;
+        line-height: 45px;
+    }
+    .info_first, .info_second{
+        width:400px;
+        margin: 20px auto;
+    }
+    .info_first_data>h2,.info_second_data>h2{
+        font-size: 135%;
+        margin-bottom: 5px;
+    }
+    .info_first_data>h3,.info_second_data>h3{
+        font-size: 85%;
+        line-height: 17px;
+        margin-top: 8px;
+    }
+    .featured-text{
+        font-size: 130%;
+    }
+    .cards, .main{
+        width:100%;
+    }
+    .card{
+        width:100%;
+    }
+    .data-description{
+        line-height: 15px;
+        font-size: 83%;
+    }
+    .data-description, .gc_bt, .st_bt{
+        width:90%;
+    }
+
+
+
+
+    .leg-flex{
+        width:400px;
+    }
+}

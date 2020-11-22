@@ -1,0 +1,51 @@
+@media only screen and (max-width:1000px){
+    .main{
+        width: 760px;
+    }
+    .info_first{
+        height: 350px;
+    }
+    .info_second{
+        height: 350px;
+    }
+
+    .info_first_data{
+        width:69%;
+    }
+    .info_second_data{
+        width:69%;
+    }
+    .info_first_data>h2{
+        font-size: 160%;
+    }
+    .info_first_data>h3{
+        font-size: 90%;
+        width:90%;
+        margin-block-end: 0;
+    }
+    .info_first_data>i{
+        font-size: 23px;
+    }
+    .info_second_data>h2{
+        font-size: 160%;
+    }
+    .info_second_data>h3{
+        font-size: 90%;
+        width:90%;
+    }
+    .info_second_data>i{
+        font-size: 23px;
+    }
+
+    .cards{
+        width:940px;
+    }
+
+    .head-items>div{
+        margin-right: 7px ;
+    }
+    .leg-flex{
+        padding: 0;
+        width:760px;
+    }
+}

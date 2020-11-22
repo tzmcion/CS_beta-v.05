@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"); /*font-family: 'Roboto Condensed', sans-serif;*/
+
+a{
+  cursor: pointer;
+}
+
+.head {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  z-index: 9999;
+  margin-top: 0px;
+  color: #179BFF;
+  border-bottom-left-radius:5px ;
+  border-bottom-right-radius: 5px;
+  font-family: "Roboto Condensed", sans-serif;
+  align-items: center;
+  display: flex;
+  background: transparent;
+  transition: 0.4s;
+}
+
+.head>.logo{
+  display: inline-block;
+  left: 30px;
+  font-size: 130%;
+  text-transform: uppercase;
+  position: absolute;
+  color: #FFAC30;
+}
+
+.head>.logo>h2>a>i{
+  font-size: 75%;
+}
+
+.head-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1140px;
+  height: 100%;
+  margin: 0px auto;
+  /* margin-top: 8px; */
+  font-size: 110%;
+  transition: 0.1s;
+}
+
+.head-items>div{
+  margin-right: 25px;
+  text-transform: uppercase;
+  padding: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  word-wrap: none;
+}
+
+.head-items>div:hover::before{
+  left:0px;
+}
+
+.head-items>div::before{
+  content: "";
+  position: absolute;
+  height:10%;
+  bottom: 0;
+  width: 100%;
+  background-color: #931b15;
+  display: inline-block;
+  left: -100%;
+  z-index:-1;
+  transition: 0.7s;
+}
+
+#JS_on_off{
+  margin-right: 20px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 2px;
+  color: #FFAC30;
+  background-color: rgb(0, 0, 0);
+  font-size: 90%;
+  cursor: pointer;
+}
+
+.js_button_prompt_button{
+  position: absolute;
+  color:white;
+  width:100px;
+  margin-left: -90px;
+  margin-top: -22px;
+  visibility: hidden;
+  text-shadow: 1px 1px 0.5px black,-1px 1px 0.5px black,-1px -1px 0.5px black,1px -1px 0.5px black;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 1700px) {
+  .head-items{
+    margin-left: 300px;
+  }
+}
+

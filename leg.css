@@ -1,0 +1,23 @@
+.leg{
+    width:100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.767);
+    color:white;
+    margin-top: 20px;
+}
+
+.leg-flex{
+    display:flex;
+    width:1420px;
+    margin: 0px auto;
+}
+
+.leg-data{
+    width:50%;
+    width:1420px;
+    padding-top: 5px;
+}
+
+.leg-contact{
+    width:50%;
+}

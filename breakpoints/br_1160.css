@@ -1,0 +1,48 @@
+@media only screen and (max-width:1160px){
+
+    .head-items>div{
+        margin-right: 13px;
+    }
+    .head-items{
+        margin-left: 230px;
+    }
+
+    .main{
+        width:960px;
+    }
+    .info_first_data>h2{
+        font-size: 200%;
+    }
+    .info_first_data>h3{
+        font-size: 100%;
+    }
+    .info_first_data>i{
+        font-size: 26px;
+    }
+    .info_second_data>h2{
+        font-size: 200%;
+    }
+    .info_second_data>h3{
+        font-size: 100%;
+    }
+    .info_second_data>i{
+        font-size: 26px;
+    }
+    .data-name {
+        font-size: 140%;
+    }
+    .data-description{
+        font-size: 75%;
+        height: 45%;
+    }
+    .gc_bt {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 90%;
+    }
+    .st_bt{
+        padding-top: 3px;
+        padding-bottom: 3px;
+        font-size: 90%; 
+    }
+}

@@ -1,0 +1,30 @@
+@media only screen and (max-width:340px){
+    .leg-flex{
+        width:100%;
+    }
+    .info_first,.info_second{
+        width:100%;
+    }
+    .info>.dane{
+        width:100%;
+    }
+    .info_divs{
+        font-size: 0.45rem;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        line-height: 35px;
+        height: 35px;
+    }
+    .info_first{
+        margin-top: 12px;
+    }
+    #connection{
+        width:90%;
+    }
+    .head>.logo{
+        font-size: 65%;
+    }
+    .leg{
+        word-wrap: break-word;
+    }
+}

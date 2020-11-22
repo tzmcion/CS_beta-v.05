@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1440px){
+    .cards{
+        width:1180px;
+    }
+
+    .card{
+        height: 270px;
+    }
+
+    .featured-text{
+        width:60%; 
+    }
+
+    .leg-flex{
+        width:1080px;
+    }
+
+    .data-description{
+        font-size: 76%;
+        height: 45%;
+    }
+    
+    .gc_bt {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 95%;
+    }
+    .st_bt{
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 95%; 
+    }
+}

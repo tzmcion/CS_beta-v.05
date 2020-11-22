@@ -1,0 +1,38 @@
+@media only screen and (max-width:960px){
+    .head>.logo{
+        visibility: hidden;
+    }
+    .head-items{
+        margin-left: 30px;
+    }
+    
+    .cards{
+        width:740px;
+        justify-content: center;
+    }
+    .card{
+        width:85%;
+        height: 300px;
+    }
+    .data-name{
+        font-size: 160%;
+    }
+    .data-version{
+        padding-bottom: 3px;
+    }
+    .data-description{
+        font-size: 90%;
+        line-height: 17px;
+    }
+    .gc_bt {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 100%;
+    }
+
+    .st_bt {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 100%;
+    }
+}

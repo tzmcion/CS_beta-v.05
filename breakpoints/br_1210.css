@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1280px){
+    .head-items{
+        font-size: 100%;
+    }
+    .head>.logo{
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 1210px){
+    .head-items{
+        font-size: 90%;
+    }
+    .head>.logo{
+        font-size: 95%;
+    }
+
+    .cards{
+        width:960px;
+    }
+
+    .card{
+        height:250px;
+
+    }
+
+    .data{
+        width:35%;
+        font-size: 90%;
+    }
+
+    .data-description{
+        height:43%;
+        margin-top: 5px;
+    }
+    .leg-flex{
+        width: 960px;
+    }
+    .data-version{
+        padding-bottom: 0;
+    }
+
+
+}

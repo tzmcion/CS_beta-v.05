@@ -1,0 +1,87 @@
+@media only screen and (max-width:780px){
+    .main{
+        width:560px;
+    }
+    .cards{
+        width: 560px;
+    }
+    .info{
+        background-size: cover;
+    }
+    .head>.logo{
+        visibility: visible;
+        left:auto;
+        top:auto;
+        bottom: auto;
+        right: auto;
+        position: relative;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        font-size: 140%;
+    }
+    .head>.logo>h2>a>i{
+        font-size: 110%;
+        position: absolute;
+        left: -50px;
+        top:30px;
+    }
+    .head-items{
+        visibility: hidden;
+        position: absolute;
+    }
+    #JS_on_off{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .info{
+        height: 350px;
+    }
+
+    .info>.dane{
+        width:560px;
+        text-align: center;
+    }
+    .dane>#breakline{
+        width:90%;
+        margin: 0 auto;
+    }
+
+    .info_first, .info_second{
+        height: 300px;
+    }
+    .info_first{
+        margin-top: 30px;
+    }
+    #connection{
+        margin-top: -15px;
+        width:490px;
+    }
+
+    #cv,#cv2{
+        visibility: hidden;
+        position: absolute;
+    }
+    .info_first_data, .info_second_data{
+        width:100%;
+        float: none;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        line-height: 21px;
+    }
+    .info_first_data>h3, .info_second_data>h3{
+        margin-top: 15px;
+        font-size: 95%;
+    }
+    .leg-flex{
+        width:560px;
+    }
+    .info_divs{
+        font-size: 1.1rem;
+    }
+    .data-description{
+        height:49%;
+        line-height: 14px;
+    }
+}
