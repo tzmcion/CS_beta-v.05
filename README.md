@@ -1,13 +1,12 @@
 #README
----
-## Canvas Script
 
-Canvas Script is a small project which is set of canvas effects for html.
+## Canvas Script
+Canvas Script is a small project which is set of canvas effects for html. <br />
 I never finished it, but it contains some cool effects (and bad english)
 
 ---
 
-Check it out here https://tzmcion.github.io/CS_beta-v.05/
+Check it out here https://tzmcion.github.io/CS_beta-v.05/ </br>
 Lava lamp effect https://codepen.io/quij_drk/pen/gOMYVGp
 
 ---
